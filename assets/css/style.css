@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #15202b;
+}
+ul.navbar{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+}
+
+li.content{
+    float: left;
+}
+
+li.right{
+    float: right;
+}
+
+li.content a {
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px 14px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+li.content a:hover{
+    background-color: lime;
+    color: black;
+    font-size: large;
+}
+
+.active{
+    background-color: gray;
+    color: white;
+}
